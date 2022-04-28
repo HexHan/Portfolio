@@ -3,11 +3,11 @@
     margin: 0px;
     padding: 0px;
 }
-body {
-    background-color: whitesmoke;
-    margin-top: 0px;
-   padding: 0px;
-}
+@font-face {
+    font-family: 'edwardian  script';
+    src: url('EdwardianScriptITC.ttf');
+  }
+
 header {
    background-color: rgb(17,17,17);
    padding-left: 0px;
@@ -55,9 +55,10 @@ ul li{
 
   .center-h {
       color: rgb(237,197,140);
-      font-family: 'edwardian-script-itc', sans-serif;
+      font-family: 'edwardian  script';
       font-size: 6em;
       align-items: center;
-      margin-top: 0.2em;;
+      margin-top: 0.2em;
+      margin-left: 1.5em;
   }
      
