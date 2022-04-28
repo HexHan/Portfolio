@@ -21,22 +21,43 @@ header {
     margin: 0px;
     padding:0px;
     height: 7em;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
     
    }
-ul {
-    display: flex;
-    flex-basis: 100%;
-    justify-content: right;
+ul li{
+    /* display: flex; */
+    /* flex-basis: 100%; */
+    /* justify-content: space-between; */
     margin-right: 2em;
+    list-style: none;
+    display: inline
   
 
 }
-   ul li a i {
+.right-nav-list {
        color:rgb(237,197,140);
        font-size: 4em;
-       margin: .3em .3em;
-      
+       margin-right: 0.0em;
        
-   }
+      }
 
+  .middle-icon {
+      color: rgb(237,197,140);
+      /* justify-content: space-between; */
+      font-size: 3em;
+      margin-left: 0.6em;
+
+  }
+
+  .center-h {
+      color: rgb(237,197,140);
+      font-family: 'edwardian-script-itc', sans-serif;
+      font-size: 6em;
+      align-items: center;
+      margin-top: 0.2em;;
+  }
+     
