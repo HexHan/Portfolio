@@ -16,6 +16,18 @@ header {
    
  
 }
+/* @keyframes changeContent {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+        content: "About Me";
+      opacity: 1;
+    } */
+/* } */
 .nav-header {
     background-color: ;
     margin: 0px;
@@ -42,7 +54,7 @@ ul li{
        color:rgb(237,197,140);
        font-size: 4em;
        margin-right: 0.0em;
-       transition: 4s;
+       transition: opacity 0.3s ease;
        
       }
 
@@ -52,7 +64,7 @@ ul li{
       font-size: 3em;
       margin-left: 0.6em;
       cursor: pointer;
-      transition: 0.3s;
+      transition: opacity 0.3s ease;
 
   }
 
@@ -62,16 +74,19 @@ ul li{
       font-size: 6em;
       align-items: center;
       margin-top: 0.2em;
-      margin-left: 1.5em;
+      margin-left: 2.6em;
       cursor: pointer;
-      transition: 0.3s ;
+      transition: opacity 0.3s ease;
+      
+     
   }
+.center-h:hover{ 
+    opacity: 0.3;
+}
 
-  .center-h:hover {
-      opacity: 0.3;
-  }
+
 .nav-bar-a li {
-    transition: 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
 }
  .nav-bar-a li :hover {
   opacity: 0.3;
@@ -83,5 +98,42 @@ ul li{
       opacity: 0.3;
   }
 
+.main-content {
+    background-color: black;
+    height: 40rem;
 
-     
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+
+    
+    
+}
+.text-container {
+    width: 70%;
+    margin-top: 1%;
+}
+.about-me {
+    
+    color: rgb(237,197,140);
+    font-size: 3em;
+    font-family: 'edwardian  script';
+    /* letter-spacing: 0.4rem; */
+    /* margin-top: %; */
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.about-me-text {
+    
+    color: rgb(237,197,140);
+    font-size: 1.8rem;
+    text-align: center;
+}
+.about-me-text, .about-me {
+    font-family: "Helvetica Neue LT Pro", sans-serif;;
+}
