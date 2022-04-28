@@ -42,6 +42,7 @@ ul li{
        color:rgb(237,197,140);
        font-size: 4em;
        margin-right: 0.0em;
+       transition: 4s;
        
       }
 
@@ -50,6 +51,8 @@ ul li{
       /* justify-content: space-between; */
       font-size: 3em;
       margin-left: 0.6em;
+      cursor: pointer;
+      transition: 0.3s;
 
   }
 
@@ -60,5 +63,25 @@ ul li{
       align-items: center;
       margin-top: 0.2em;
       margin-left: 1.5em;
+      cursor: pointer;
+      transition: 0.3s ;
   }
+
+  .center-h:hover {
+      opacity: 0.3;
+  }
+.nav-bar-a li {
+    transition: 0.3s ease-in;
+}
+ .nav-bar-a li :hover {
+  opacity: 0.3;
+
+  /* color: black; */
+  }
+
+  .middle-icon :hover {
+      opacity: 0.3;
+  }
+
+
      
