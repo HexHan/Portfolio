@@ -9,16 +9,34 @@ body {
    padding: 0px;
 }
 header {
-   background-color: black;
+   background-color: rgb(17,17,17);
    padding-left: 0px;
    width: 100%;
    border-bottom: 7px solid rgb(237,197,140);
+   
+ 
 }
 .nav-header {
-    background-color: black;
+    background-color: ;
     margin: 0px;
     padding:0px;
     height: 7em;
-   
+    
+    
+   }
+ul {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: right;
+    margin-right: 2em;
+  
+
 }
+   ul li a i {
+       color:rgb(237,197,140);
+       font-size: 4em;
+       margin: .3em .3em;
+      
+       
+   }
 
