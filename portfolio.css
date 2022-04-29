@@ -3,22 +3,25 @@
     margin: 0px;
     padding: 0px;
 }
+
 html {
-    color:rgb(237,197,140);
+    color: rgb(237, 197, 140);
 }
+
 @font-face {
     font-family: 'edwardian  script';
     src: url('EdwardianScriptITC.ttf');
-  }
+}
 
 header {
-   background-color: rgb(17,17,17);
-   padding-left: 0px;
-   width: 100%;
-   border-bottom: 7px solid rgb(237,197,140);
-   
- 
+    background-color: rgb(17, 17, 17);
+    padding-left: 0px;
+    width: 100%;
+    border-bottom: 7px solid rgb(237, 197, 140);
+
+
 }
+
 /* @keyframes changeContent {
     0% {
       opacity: 0;
@@ -34,7 +37,7 @@ header {
 .nav-header {
     background-color: ;
     margin: 0px;
-    padding:0px;
+    padding: 0px;
     height: 7em;
     flex-wrap: nowrap;
     display: flex;
@@ -46,169 +49,203 @@ header {
 
 }
 
-    
-    
-ul li{
+
+
+ul li {
     display: flex;
     /* flex-basis: 100%; */
     justify-content: space-between;
     margin-right: 2em;
     list-style: none;
 
-    
-    
-    
-  
+
+
+
+
 
 }
+
 .right-nav-list {
-       color:rgb(237,197,140);
-       font-size: 4em;
-       margin-right: 0.0em;
-       transition: opacity 0.2s ease;
-       
-       
-      }
+    color: rgb(237, 197, 140);
+    font-size: 4em;
+    margin-right: 0.0em;
+    transition: opacity 0.2s ease;
 
-  .middle-icon {
-      color: rgb(237,197,140);
-      /* justify-content: space-between; */
-      font-size: 3em;
-      margin-left: 0.6em;
-      cursor: pointer;
-      transition: opacity 0.2s ease;
 
-  }
+}
 
-  .center-h {
-      color: rgb(237,197,140);
-      font-family: 'edwardian  script';
-      font-size: 6em;
-      /* align-items: center; */
-      margin-top: 0.2em;
-      margin-left: 2.6em;
-      cursor: pointer;
-      transition: opacity 0.2s ease;
-      /* margin: 0 0 2.6em 1rem; */
-     
-  }
-.center-h:hover{ 
+.middle-icon {
+    color: rgb(237, 197, 140);
+    /* justify-content: space-between; */
+    font-size: 3em;
+    margin-left: 0.6em;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+
+}
+
+.center-h {
+    color: rgb(237, 197, 140);
+    font-family: 'edwardian  script';
+    font-size: 6em;
+    /* align-items: center; */
+    margin-top: 0.2em;
+    margin-left: 2.6em;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    /* margin: 0 0 2.6em 1rem; */
+
+}
+
+.center-h:hover {
     opacity: 0.3;
 }
 
 .nav-bar-a {
     display: flex;
 }
+
 .nav-bar-a li {
     transition: opacity 0.2s ease-in;
-    
+
 }
- .nav-bar-a li :hover {
-  opacity: 0.3;
 
-  /* color: black; */
-  }
+.nav-bar-a li :hover {
+    opacity: 0.3;
 
-  .middle-icon :hover {
-      opacity: 0.3;
-  }
+    /* color: black; */
+}
+
+.middle-icon :hover {
+    opacity: 0.3;
+}
 
 .main-content {
     background-color: black;
     height: 40rem;
 
 }
+
 .main-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-content: center; */
     align-items: center;
-    border-bottom: 7px solid rgb(237,197,140);
+    border-bottom: 7px solid rgb(237, 197, 140);
 
-    
-    
+
+
 }
+
 .text-container {
     width: 70%;
     margin-top: 1%;
-    
-    
+    display: flex;
+    flex-direction: column;
+
+
 }
+
 .about-me {
-    
-    color: rgb(237,197,140);
+
+    color: rgb(237, 197, 140);
     font-size: 4em;
     font-family: 'edwardian  script';
     /* letter-spacing: 0.4rem; */
     /* margin-top: %; */
     text-align: center;
     margin-bottom: 5rem;
-    text-decoration:underline;
+    text-decoration: underline;
     text-decoration-thickness: 5px;
     text-underline-offset: 1rem;
-    
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-me:hover {
+    opacity: 0.3;
+
 }
 
 .about-me-text {
-    
-    color: rgb(237,197,140);
+
+    color: rgb(237, 197, 140);
     font-size: 1.8rem;
     text-align: center;
 }
-.about-me-text, {
+
+.about-me-text,
+    {
     font-family: "Helvetica Neue LT Pro", sans-serif;
 }
 
 .skill-section {
     background-color: black;
     width: 100%;
-    height: 100%;
+    height: 50rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 7px solid rgb(237,197,140);
+    border-bottom: 7px solid rgb(237, 197, 140);
     overflow: none;
     flex-direction: column;
-    padding: 5rem; auto;
+    padding: 5rem;
+    auto;
     text-align: center;
 
 }
 
 .section-heading-title {
-    color: rgb(237,197,140);
+    color: rgb(237, 197, 140);
     font-size: 6em;
     font-family: 'edwardian  script';
-    margin-bottom: 5rem;
-    text-decoration:underline;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
     text-decoration-thickness: 5px;
     text-underline-offset: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.section-heading-title:hover {
+    opacity: 0.3;
 }
 
 .skill-icons {
     display: flex;
     flex-direction: row;
-    color:rgb(237,197,140);
+    color: rgb(237, 197, 140);
     font-size: 5em;
     margin-right: 0.0em;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.3s ease;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    /* transition: border 0.2s ease; */
+
+
 }
+
 .skill-icons li {
     margin: 5rem;
     display: flex;
     flex-direction: column;
-    
+    cursor: pointer;
+
+
+
 }
+
 .skill-icons li i {
-    margin-bottom: 0.5rem;
-    
+    /* margin-bottom: 0.5rem; */
+
 }
 
 .icon-label {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 900;
+    font-family: "Helvetica Neue LT Pro", sans-serif;
+    ;
 }
