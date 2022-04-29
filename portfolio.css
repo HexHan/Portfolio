@@ -6,6 +6,7 @@
 
 html {
     color: rgb(237, 197, 140);
+    scroll-behavior:smooth;
 }
 
 @font-face {
@@ -136,6 +137,7 @@ ul li {
 
 
 
+
 }
 
 .text-container {
@@ -240,6 +242,7 @@ ul li {
 .skill-icons li i {
     /* margin-bottom: 0.5rem; */
 
+
 }
 
 .icon-label {
@@ -248,4 +251,59 @@ ul li {
     font-weight: 900;
     font-family: "Helvetica Neue LT Pro", sans-serif;
     ;
+}
+
+.icon-label {
+    font-size: 1rem;
+  
+    }
+.project-section {
+    width: 100%;
+    height: 100%;
+    background-color:black;
+
+}
+.project-header {
+    display:flex
+    justify-content: center;
+}
+
+.project-title {
+    color: rgb(237, 197, 140);
+    font-size: 5em;
+    font-family: 'edwardian  script';
+    /* letter-spacing: 0.4rem; */
+    /* margin-top: %; */
+    text-align: center;
+    margin-bottom: 5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 1rem;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.project-card {
+    outline: 5px solid rgb(237, 197, 140);
+    height: 25rem;
+    width: 15rem;
+    margin: 2rem 4rem;
+    border-radius: 5px;
+    transition: box-shadow 0.0s ease;
+    transition: all 0.5s ease;
+}
+.project-card:hover {
+    box-shadow: 10px 10px 5px #F6F6F6 ;
+    transform: scale(1.1);
+    
+
+
 }
