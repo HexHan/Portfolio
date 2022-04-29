@@ -147,6 +147,7 @@ ul li{
     text-decoration:underline;
     text-decoration-thickness: 5px;
     text-underline-offset: 1rem;
+    
 }
 
 .about-me-text {
@@ -169,7 +170,7 @@ ul li{
     border-bottom: 7px solid rgb(237,197,140);
     overflow: none;
     flex-direction: column;
-    padding: 10rem; auto;
+    padding: 5rem; auto;
     text-align: center;
 
 }
@@ -197,4 +198,17 @@ ul li{
 }
 .skill-icons li {
     margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.skill-icons li i {
+    margin-bottom: 0.5rem;
+    
+}
+
+.icon-label {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
 }
