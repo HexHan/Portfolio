@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+html {
+    color:rgb(237,197,140);
+}
 @font-face {
     font-family: 'edwardian  script';
     src: url('EdwardianScriptITC.ttf');
@@ -109,6 +112,7 @@ ul li{
     justify-content: center;
     /* align-content: center; */
     align-items: center;
+    border-bottom: 7px solid rgb(237,197,140);
 
     
     
@@ -116,6 +120,7 @@ ul li{
 .text-container {
     width: 70%;
     margin-top: 1%;
+    
 }
 .about-me {
     
@@ -126,6 +131,9 @@ ul li{
     /* margin-top: %; */
     text-align: center;
     margin-bottom: 5rem;
+    text-decoration:underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 1rem;
 }
 
 .about-me-text {
@@ -135,5 +143,57 @@ ul li{
     text-align: center;
 }
 .about-me-text, {
-    font-family: "Helvetica Neue LT Pro", sans-serif;;
+    font-family: "Helvetica Neue LT Pro", sans-serif;
+}
+
+.skill-section {
+    background-color: black;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-bottom: 7px solid rgb(237,197,140);
+}
+
+.skill-section-item-container {
+    display: flex; 
+     justify-content: center; 
+     align-items: center;
+}
+
+.section-heading-title {
+    color: rgb(237,197,140);
+    font-size: 7em;
+    font-family: 'edwardian  script';
+    text-align: center;
+    margin-bottom: 5rem;
+    text-decoration:underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 1rem;
+}
+    
+
+.skill-icons {
+    color: rgb(237,197,140);
+    color:rgb(237,197,140);
+    font-size: 6em;
+    /* margin-right: 0.0em; */
+    transition: opacity 0.2s ease;
+    display: flex; 
+    justify-content: space-around; 
+    outline: rgb(237,197,140);
+
+}
+
+.ul-icon-list {
+ display:flex;
+ text-align: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ align-items: center;
+}
+
+.ul-icon-list li {
+    margin-bottom: 3rem;
 }
