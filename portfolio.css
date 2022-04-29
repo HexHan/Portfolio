@@ -38,18 +38,26 @@ header {
     height: 7em;
     flex-wrap: nowrap;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    text-align: center;
+    height: 100%;
+    /* flex-direction: row; */
+
+}
+
     
     
-   }
 ul li{
-    /* display: flex; */
+    display: flex;
     /* flex-basis: 100%; */
-    /* justify-content: space-between; */
+    justify-content: space-between;
     margin-right: 2em;
     list-style: none;
-    display: inline
+
+    
+    
+    
   
 
 }
@@ -58,6 +66,7 @@ ul li{
        font-size: 4em;
        margin-right: 0.0em;
        transition: opacity 0.2s ease;
+       
        
       }
 
@@ -75,21 +84,24 @@ ul li{
       color: rgb(237,197,140);
       font-family: 'edwardian  script';
       font-size: 6em;
-      align-items: center;
+      /* align-items: center; */
       margin-top: 0.2em;
       margin-left: 2.6em;
       cursor: pointer;
       transition: opacity 0.2s ease;
-      
+      /* margin: 0 0 2.6em 1rem; */
      
   }
 .center-h:hover{ 
     opacity: 0.3;
 }
 
-
+.nav-bar-a {
+    display: flex;
+}
 .nav-bar-a li {
     transition: opacity 0.2s ease-in;
+    
 }
  .nav-bar-a li :hover {
   opacity: 0.3;
@@ -121,6 +133,7 @@ ul li{
     width: 70%;
     margin-top: 1%;
     
+    
 }
 .about-me {
     
@@ -149,51 +162,39 @@ ul li{
 .skill-section {
     background-color: black;
     width: 100%;
-    height: 40rem;
+    height: 100%;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     border-bottom: 7px solid rgb(237,197,140);
-}
+    overflow: none;
+    flex-direction: column;
+    padding: 10rem; auto;
+    text-align: center;
 
-.skill-section-item-container {
-    display: flex; 
-     justify-content: center; 
-     align-items: center;
 }
 
 .section-heading-title {
     color: rgb(237,197,140);
-    font-size: 7em;
+    font-size: 6em;
     font-family: 'edwardian  script';
-    text-align: center;
     margin-bottom: 5rem;
     text-decoration:underline;
     text-decoration-thickness: 5px;
     text-underline-offset: 1rem;
 }
-    
 
 .skill-icons {
-    color: rgb(237,197,140);
+    display: flex;
+    flex-direction: row;
     color:rgb(237,197,140);
-    font-size: 6em;
-    /* margin-right: 0.0em; */
+    font-size: 5em;
+    margin-right: 0.0em;
     transition: opacity 0.2s ease;
-    display: flex; 
-    justify-content: space-around; 
-    outline: rgb(237,197,140);
-
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
 }
-
-.ul-icon-list {
- display:flex;
- text-align: center;
- justify-content: center;
- flex-wrap: wrap;
- align-items: center;
-}
-
-.ul-icon-list li {
-    margin-bottom: 3rem;
+.skill-icons li {
+    margin: 5rem;
 }
