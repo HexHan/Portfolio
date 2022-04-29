@@ -278,7 +278,7 @@ ul li {
 }
 
 .project-text-container {
-    width:60%;
+    width:50%;
     display: flex;
     justify-content: center;
 }
@@ -290,7 +290,7 @@ ul li {
     /* letter-spacing: 0.4rem; */
     /* margin-top: %; */
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     margin-top: 3rem;
     text-decoration: underline;
     text-decoration-thickness: 5px;
@@ -308,8 +308,9 @@ ul li {
 .project-text {
    /* color:red; */
    text-align: center;
-   font-size: 1.3rem;
+   font-size: 1.4rem;
    font-family: "Helvetica Neue LT Pro", sans-serif;
+    
 }
 
 .project-container {
@@ -321,12 +322,12 @@ ul li {
 }
 
 .project-card {
-    outline: 5px solid rgb(237, 197, 140);
+    outline: 2px solid rgb(237, 197, 140);
     height: 25rem;
     width: 15rem;
     margin: 2rem 4rem;
-    
-    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 10px;
     transition: box-shadow 0.0s ease;
     transition: all 0.5s ease;
 }
