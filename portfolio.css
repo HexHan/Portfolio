@@ -35,22 +35,49 @@ header {
       opacity: 1;
     } */
 /* } */
+
+.nav-header-container {
+    background-color: black;
+    width: 100%;
+}
+
 .nav-header {
-    background-color: ;
+    background-color: black;
     margin: 0px;
     padding: 0px;
     height: 7em;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     height: 100%;
-    /* flex-direction: row; */
+    width: 100%;
+    /* flex-direction: column; */
 
 }
 
-
+@media only screen and (max-width: 768px) {
+    .nav-header {
+        flex-direction: column;
+    }
+    .middle-icon {
+        order: 3;
+    }
+    .nav-ul {
+        order: 2;
+    }
+    .center-h {
+        order: 1;
+        margin-left: 0rem !important;
+    }
+}
+.nav-header,
+.main-content,
+.skill-section,
+.project-section {
+    min-width: 420px;
+}
 
 ul li {
     display: flex;
@@ -82,7 +109,14 @@ ul li {
     margin-left: 0.6em;
     cursor: pointer;
     transition: opacity 0.2s ease;
+    /* order: 2; */
 
+}
+
+.nav-ul {
+    display: flex;
+    /* order: 2; */
+    margin-bottom: 1rem;
 }
 
 .center-h {
@@ -90,11 +124,15 @@ ul li {
     font-family: 'edwardian  script';
     font-size: 6em;
     /* align-items: center; */
-    margin-top: 0.2em;
-    margin-left: 2.6em;
+    /* margin-top: 0.2em; */
+    /* margin-left: 2.6em; */
     cursor: pointer;
     transition: opacity 0.2s ease;
     /* margin: 0 0 2.6em 1rem; */
+    width: 100%;
+    /* order: 1; */
+    margin-left: 9rem ;
+
 
 }
 
@@ -104,6 +142,9 @@ ul li {
 
 .nav-bar-a {
     display: flex;
+    order: 3;
+    margin-bottom: 0.5rem
+   
 }
 
 .nav-bar-a li {
@@ -123,7 +164,10 @@ ul li {
 
 .main-content {
     background-color: black;
-    height: 40rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
 
 }
 
@@ -134,7 +178,8 @@ ul li {
     /* align-content: center; */
     align-items: center;
     border-bottom: 7px solid rgb(237, 197, 140);
-
+    
+    /* width: 100%; */
 
 
 
@@ -177,6 +222,7 @@ ul li {
     color: rgb(237, 197, 140);
     font-size: 1.8rem;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .about-me-text,
@@ -187,7 +233,7 @@ ul li {
 .skill-section {
     background-color: black;
     width: 100%;
-    height: 50rem;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,6 +327,7 @@ ul li {
     width:50%;
     display: flex;
     justify-content: center;
+    
 }
 
 .project-title {
@@ -318,7 +365,7 @@ ul li {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 2rem;
-    
+    border-bottom: 7px solid rgb(237, 197, 140);
 }
 
 .project-card {
@@ -329,7 +376,7 @@ ul li {
     cursor: pointer;
     border-radius: 10px;
     transition: box-shadow 0.0s ease;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 .project-card:hover {
     box-shadow: 10px 10px 5px #F6F6F6 ;
