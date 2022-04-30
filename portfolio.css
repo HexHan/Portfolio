@@ -6,7 +6,7 @@
 
 html {
     color: rgb(237, 197, 140);
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -57,21 +57,25 @@ header {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1060px) {
     .nav-header {
         flex-direction: column;
     }
+
     .middle-icon {
         order: 3;
     }
+
     .nav-ul {
         order: 2;
     }
+
     .center-h {
         order: 1;
         margin-left: 0rem !important;
     }
 }
+
 .nav-header,
 .main-content,
 .skill-section,
@@ -131,7 +135,7 @@ ul li {
     /* margin: 0 0 2.6em 1rem; */
     width: 100%;
     /* order: 1; */
-    margin-left: 9rem ;
+    margin-left: 9rem;
 
 
 }
@@ -144,7 +148,6 @@ ul li {
     display: flex;
     order: 3;
     margin-bottom: 0.5rem
-   
 }
 
 .nav-bar-a li {
@@ -167,7 +170,7 @@ ul li {
     height: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 
 }
 
@@ -178,7 +181,7 @@ ul li {
     /* align-content: center; */
     align-items: center;
     border-bottom: 7px solid rgb(237, 197, 140);
-    
+
     /* width: 100%; */
 
 
@@ -203,6 +206,7 @@ ul li {
     /* margin-top: %; */
     text-align: center;
     margin-bottom: 5rem;
+    margin-top: 1rem;
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-underline-offset: 1rem;
@@ -282,9 +286,10 @@ ul li {
     cursor: pointer;
     transition: opacity 0.3s linear;
 }
+
 .skill-icons li:hover {
     opacity: 0.3;
-    
+
 }
 
 .skill-icons li i {
@@ -303,19 +308,21 @@ ul li {
 
 .icon-label {
     font-size: 1rem;
-  
-    }
+
+}
+
 .project-section {
     width: 100%;
     height: 100%;
-    background-color:black;
-    display:flex;
+    background-color: black;
+    display: flex;
     flex-direction: column;
+    border-bottom: 7px solid rgb(237, 197, 140);
 
 }
 
 .project-header {
-    display:flex;
+    display: flex;
     justify-content: center;
     width: 100%;
     flex-direction: column;
@@ -324,10 +331,10 @@ ul li {
 }
 
 .project-text-container {
-    width:50%;
+    width: 50%;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .project-title {
@@ -348,16 +355,19 @@ ul li {
     align-items: center;
     transition: opacity 0.3s ease;
 }
+
 .project-title:hover {
     opacity: 0.3;
 }
 
 .project-text {
-   /* color:red; */
-   text-align: center;
-   font-size: 1.4rem;
-   font-family: "Helvetica Neue LT Pro", sans-serif;
+
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: "Helvetica Neue LT Pro", sans-serif;
+    margin-bottom: 3rem;
     
+
 }
 
 .project-container {
@@ -365,23 +375,134 @@ ul li {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 2rem;
-    border-bottom: 7px solid rgb(237, 197, 140);
+    /* border-bottom: 7px solid rgb(237, 197, 140); */
 }
 
 .project-card {
-    outline: 2px solid rgb(237, 197, 140);
+    outline: 4px solid rgb(237, 197, 140);
     height: 25rem;
     width: 15rem;
-    margin: 2rem 4rem;
+    margin: 2.5rem 4rem;
     cursor: pointer;
     border-radius: 10px;
     transition: box-shadow 0.0s ease;
     transition: all 0.3s ease;
 }
+
+#projectCardOne {
+    background-image: url(https://www.bethisraelvan.ca/wp-content/uploads/2017/05/placeholder.png);
+    background-position: cover;
+    background-size: 100%;
+}
+
+#projectCardTwo {
+    background-image: url(https://www.bethisraelvan.ca/wp-content/uploads/2017/05/placeholder.png);
+    background-position: cover;
+    background-size: 100%;
+}
+
+#projectCardThree {
+    background-image: url(https://www.bethisraelvan.ca/wp-content/uploads/2017/05/placeholder.png);
+    background-position: cover;
+    background-size: 100%;
+}
+
+#projectCardFour {
+    background-image: url(https://www.bethisraelvan.ca/wp-content/uploads/2017/05/placeholder.png);
+    background-position: cover;
+    background-size: 100%;
+}
+
 .project-card:hover {
-    box-shadow: 10px 10px 5px #F6F6F6 ;
+    /* box-shadow: 10px 10px 5px #F6F6F6; */
     transform: scale(1.1);
+}
+
+.card-container figcaption {
+    text-align: center;
+    width: 23rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.card-container {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom-width: thin;
+    margin: 0 0rem 2rem 1rem;
+}
+
+.card-container h6 {
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid rgb(237, 197, 140);
+    font-family: "Helvetica Neue LT Pro", sans-serif;
+   
+}
+
+.card-title-h6 {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
     
+.contact-section {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(237, 197, 140);
+}
+    
+.download-resume-header  {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}.download-resume-header p {
+    margin: 3rem;
+    font-size: 1.4rem;
+    font-family: "Helvetica Neue LT Pro", sans-serif;
+    width: 40rem;
+    margin-bottom: 5rem;
+    /* margin-bottom: 1rem; */
+}
 
+.download-resume-header a {
+    color: rgb(237, 197, 140);
+    font-size: 5em;
+ 
+}
 
+.section-heading-title {
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+.resume-download-container {
+    margin: 5rem;
+}
+
+.download-icon-div {
+    transition: opacity 0.3s ease-in;
+}
+
+.download-icon-div:hover {
+    opacity: 0.3;
+    
+}
+
+.download-icon-div h3 {
+    font-family: "Helvetica Neue LT Pro", sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
 }
