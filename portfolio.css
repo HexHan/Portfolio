@@ -451,14 +451,17 @@ ul li {
 }
     
 .contact-section {
+    /* width: 100%; */
+    /* height: 100%; */
     background-color: black;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid rgb(237, 197, 140);
+    flex-wrap: wrap;
+    float:left;
+    
 }
     
 .download-resume-header  {
@@ -467,12 +470,13 @@ ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }.download-resume-header p {
     margin: 3rem;
     font-size: 1.4rem;
     font-family: "Helvetica Neue LT Pro", sans-serif;
-    width: 40rem;
+    width:50%;
     margin-bottom: 5rem;
     /* margin-bottom: 1rem; */
 }
@@ -480,16 +484,20 @@ ul li {
 .download-resume-header a {
     color: rgb(237, 197, 140);
     font-size: 5em;
+    
  
 }
 
 .section-heading-title {
     text-align: center;
     margin-bottom: 0rem;
+    /* display: flex; */
+    ;
 }
 
 .resume-download-container {
     margin: 5rem;
+    display: flex;
 }
 
 .download-icon-div {
@@ -505,4 +513,15 @@ ul li {
     font-family: "Helvetica Neue LT Pro", sans-serif;
     font-size: 1.5rem;
     font-weight: normal;
+}
+
+.download-resume-title {
+    /* display: flex; */
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-me-title {
+    /* display: flex; */
 }
