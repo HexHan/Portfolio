@@ -525,7 +525,8 @@ ul li {
 }
 
 .contact-me-title {
-    /* display: flex; */
+    display: flex;
+    justify-content: center;
 }
 
 .footer-heading {
@@ -545,11 +546,64 @@ ul li {
     display: flex;
     justify-content: center;
     text-align: center;
-
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-container h3 {
     font-size: 6rem;
     font-family: 'edwardian  script';
-    margin: 1rem;
+    margin: 1rem; 
+    margin-right: 6rem;
+    color: rgb(237, 197, 140);
+    text-decoration:none;
+}
+
+.footer-container a {
+    text-decoration:none;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.footer-container h3:hover {
+    opacity: 0.3;
+}
+
+.paragraph-footer {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+.paragraph-footer p {
+    display: flex;
+   
+   
+}
+
+.footer-container h3 {
+    transition: opacity 0.3s ease;
+    
+}
+
+.footer-container p {
+    font-size: 1.4rem;
+    width: 50%;
+    font-family: "Helvetica Neue LT Pro", sans-serif;
+    margin-bottom: 1rem;
+
+}
+
+.footer-container article {
+    font-family: 'edwardian  script';
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
