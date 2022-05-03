@@ -36,6 +36,52 @@ header {
       opacity: 1;
     } */
 /* } */
+.nav-link-list  {
+    position: absolute;
+    margin: 5rem 0 0 1rem;
+    /* position: bottom; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: none;
+   
+    bottom: auto;
+    z-index: 10; 
+    background-color: rgba(17, 17, 17,0.2);
+    text-align: center;
+    
+    
+    
+   
+    
+    
+}   
+
+
+.nav-link-item a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(237, 197, 140);
+    font-size: 1.3rem;
+    margin: 0 1rem 0 0.1rem;
+    border-bottom: 1px solid;
+    transition: opacity 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    font-family: "Helvetica Neue LT Pro", sans-serif;
+    text-transform: capitalize;
+    margin-bottom:0.5rem;
+    width: 100%;
+   
+    
+    
+    
+    
+    
+}
+
+.nav-link-item a:hover {
+    opacity: 0.3;
+}
 
 .nav-header-container {
     background-color: black;
@@ -69,6 +115,8 @@ header {
 
     .nav-ul {
         order: 2;
+        display: flex;
+        flex-direction: column;
     }
 
     .center-h {
