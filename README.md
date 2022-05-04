@@ -1,4 +1,6 @@
-
+---
+permalink: /index.html
+---
 # Project Portfolio H.Tackor
 
 Portfolio of my projects as well as as well my contact information and resume.
